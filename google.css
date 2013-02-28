@@ -1,0 +1,59 @@
+/* ----------- Gmail Only */
+/* Make search bar semi-transparent to blend into themed backgrounds */
+.gbqfqw { background: rgba(255,255,255,0.5); }
+
+/* Hide Google+ Share widget */
+ol.gbtc li.gbt:nth-child(3) { display: none; }
+
+/* Reduce footer padding in message list */
+.l2 { padding-bottom: 40px; }
+
+/* Hide Google copyright */
+.l2 .aeU { visibility: hidden; }
+
+/* Shrink Google logo to look like Google Drive's */
+.gbemi#gb .gbqldr, .gbem#gbqlw .gbqldr { max-width: 95px; }
+
+/* Shrink message size */
+.b8 .vh { font-size: 70%; }
+
+
+/* ----------- Google Calendar Only */
+
+/* Adjust position of search bar */
+#calmaster #gbq #gbq2 { margin-left: 204px; }
+#calmaster #gbq.gbem #gbq2 { margin-left: 182px; }
+#calmaster #gbq.gbes #gbq2 { margin-left: 170px; }
+
+/* Shrink header spacing */
+#calmaster #gb { height: 75px !important; }
+
+
+/* ----------- Google Drive Only */
+
+/* Table headers should be sentence case */
+.doclist-header th { font-size: 12px; text-transform: none; }
+.doclist-header-inner { margin-bottom: -6px; }
+.doclist-header-label-checkbox { margin-bottom: 0 !important; }
+
+/* Standardize dropdown button styling */
+.goog-flat-menu-button { padding: 0 6px; }
+.goog-flat-menu-button-dropdown { position: relative; top: 0; right: 0; margin-left: 3px; vertical-align: middle; }
+.advanced-search-button .goog-flat-menu-button-dropdown { position: absolute; }
+.viewpane .goog-toolbar-item-action-menu .goog-flat-menu-button-caption, .viewpane .goog-toolbar-item-viewpane-sort .goog-flat-menu-button-caption { opacity: 0.68 !important; }
+.viewpane .goog-toolbar-item-action-menu.goog-flat-menu-button-hover .goog-flat-menu-button-caption, .viewpane .goog-toolbar-item-viewpane-sort.goog-flat-menu-button-hover .goog-flat-menu-button-caption { opacity: 0.85 !important; }
+
+
+/* ----------- ALL */
+
+/* Realign spacing of header contents */
+#gb.gbem { height: 75px !important; }
+#gb.gbes, #calmaster #gb.gbes { height: 52px !important; }
+#gb #gbq, #gb #gbu { top: 8px !important; }
+#gb #gbq.gbes, #gb #gbu.gbes { top: 7px !important; }
+
+/* Hide top dark gray navigation bar, light gray "Google Bar" */
+#gbz, #gbx1, #gbx3 { visibility: hidden !important; }
+
+/* Hide Google logo */
+#gbq1 { display: none; }
