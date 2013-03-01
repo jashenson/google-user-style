@@ -1,29 +1,29 @@
 /* ----------- Gmail Only */
 /* Make search bar semi-transparent to blend into themed backgrounds */
-.gbqfqw { background: rgba(255,255,255,0.5); }
+.gbqfqw { background: rgba(255,255,255,0.5) !important; }
 
 /* Hide Google+ Share widget */
-ol.gbtc li.gbt:nth-child(3) { display: none; }
+ol.gbtc li.gbt:nth-child(3) { display: none !important; }
 
 /* Reduce footer padding in message list */
-.l2 { padding-bottom: 40px; }
+.l2 { padding-bottom: 40px !important; }
 
 /* Hide Google copyright */
-.l2 .aeU { visibility: hidden; }
+.l2 .aeU { visibility: hidden !important; }
 
 /* Shrink Google logo to look like Google Drive's */
-.gbemi#gb .gbqldr, .gbem#gbqlw .gbqldr { max-width: 95px; }
+.gbemi#gb .gbqldr, .gbem#gbqlw .gbqldr { max-width: 95px !important; }
 
 /* Shrink message size */
-.b8 .vh { font-size: 70%; }
+.b8 .vh { font-size: 70% !important; }
 
 
 /* ----------- Google Calendar Only */
 
 /* Adjust position of search bar */
-#calmaster #gbq #gbq2 { margin-left: 204px; }
-#calmaster #gbq.gbem #gbq2 { margin-left: 182px; }
-#calmaster #gbq.gbes #gbq2 { margin-left: 170px; }
+#calmaster #gbq #gbq2 { margin-left: 204px !important; }
+#calmaster #gbq.gbem #gbq2 { margin-left: 182px !important; }
+#calmaster #gbq.gbes #gbq2 { margin-left: 170px !important; }
 
 /* Shrink header spacing */
 #calmaster #gb { height: 75px !important; }
@@ -37,8 +37,8 @@ ol.gbtc li.gbt:nth-child(3) { display: none; }
 .doclist-header-label-checkbox { margin-bottom: 0 !important; }
 
 /* Standardize dropdown button styling */
-.goog-flat-menu-button { padding: 0 6px; }
-.goog-flat-menu-button-dropdown { position: relative; top: 0; right: 0; margin-left: 3px; vertical-align: middle; }
+.goog-flat-menu-button { padding: 0 6px !important; }
+.goog-flat-menu-button-dropdown { position: relative !important; top: 0 !important; right: 0 !important; margin-left: 3px !important; vertical-align: middle !important; }
 .advanced-search-button .goog-flat-menu-button-dropdown { position: absolute; }
 .viewpane .goog-toolbar-item-action-menu .goog-flat-menu-button-caption, .viewpane .goog-toolbar-item-viewpane-sort .goog-flat-menu-button-caption { opacity: 0.68 !important; }
 .viewpane .goog-toolbar-item-action-menu.goog-flat-menu-button-hover .goog-flat-menu-button-caption, .viewpane .goog-toolbar-item-viewpane-sort.goog-flat-menu-button-hover .goog-flat-menu-button-caption { opacity: 0.85 !important; }
@@ -56,4 +56,4 @@ ol.gbtc li.gbt:nth-child(3) { display: none; }
 #gbz, #gbx1, #gbx3 { visibility: hidden !important; }
 
 /* Hide Google logo */
-#gbq1 { display: none; }
+#gbq1 { display: none !important; }
