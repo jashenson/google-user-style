@@ -39,7 +39,7 @@ ol.gbtc li.gbt:nth-child(3) { display: none !important; }
 /* Standardize dropdown button styling */
 .goog-flat-menu-button { padding: 0 6px !important; }
 .goog-flat-menu-button-dropdown { position: relative !important; top: 0 !important; right: 0 !important; margin-left: 3px !important; vertical-align: middle !important; }
-.advanced-search-button .goog-flat-menu-button-dropdown { position: absolute; }
+.advanced-search-button .goog-flat-menu-button-dropdown { position: absolute !important; }
 .viewpane .goog-toolbar-item-action-menu .goog-flat-menu-button-caption, .viewpane .goog-toolbar-item-viewpane-sort .goog-flat-menu-button-caption { opacity: 0.68 !important; }
 .viewpane .goog-toolbar-item-action-menu.goog-flat-menu-button-hover .goog-flat-menu-button-caption, .viewpane .goog-toolbar-item-viewpane-sort.goog-flat-menu-button-hover .goog-flat-menu-button-caption { opacity: 0.85 !important; }
 
